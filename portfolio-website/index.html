@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bryce McKinley · Portfolio</title>
+  <meta name="description" content="I build reliable, real-time systems and delightful UIs." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">
+        <span class="brand-initials">BM</span>
+        <span class="brand-name">Bryce McKinley</span>
+      </a>
+      <nav class="nav">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">Menu</button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact" class="btn">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Robotics · Software · Systems</p>
+        <h1 class="hero-title">I build reliable, real-time systems and delightful UIs.</h1>
+        <p class="hero-subtitle">I’m a <strong>Software Engineer</strong> who ships performant solutions in robotics, web, and data.</p>
+        <div class="hero-cta">
+          <a class="btn" href="#projects">See Projects</a>
+          <a class="btn btn-ghost" href="resume.pdf" target="_blank" rel="noopener">Download Résumé</a>
+        </div>
+      </div>
+      <div class="hero-bg" aria-hidden="true"></div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2>About</h2>
+          <p>I'm a passionate software engineer with a focus on robotics and web development.</p>
+          <ul class="bullets">
+            <li>Experienced in building real-time systems.</li>
+            <li>Strong background in Python and C++.</li>
+            <li>Committed to continuous learning and improvement.</li>
+          </ul>
+          <div class="links">
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/yourhandle" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="mailto:you@example.com">Email</a>
+          </div>
+        </div>
+        <figure class="about-card">
+          <img src="https://picsum.photos/600/400" alt="Portrait or workspace" />
+          <figcaption>A short caption about me.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="card-body">
+              <h3>Realtime Robot Telemetry</h3>
+              <p>100Hz pipeline with ROS 2, custom visualization, and alerting.</p>
+              <ul class="tags">
+                <li>ROS 2</li><li>Python</li><li>gRPC</li><li>Jetson</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <a class="btn-sm" href="#" target="_blank" rel="noopener">Demo</a>
+              <a class="btn-sm btn-ghost" href="https://github.com/yourrepo" target="_blank" rel="noopener">Code</a>
+              <a class="btn-sm btn-ghost" href="#case-study-id">Case study</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-body">
+              <h3>Portfolio Website</h3>
+              <p>Accessible, responsive site with clean CSS and SEO basics.</p>
+              <ul class="tags"><li>HTML</li><li>CSS</li><li>Accessibility</li></ul>
+            </div>
+            <div class="card-footer">
+              <a class="btn-sm" href="#" aria-disabled="true">Demo</a>
+              <a class="btn-sm btn-ghost" href="#" aria-disabled="true">Code</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Experience</h2>
+        <ul class="timeline">
+          <li>
+            <div class="time">2024 — Present</div>
+            <div class="item">
+              <h3>Software Lead · WPI</h3>
+              <p>Led projects to achieve significant improvements in system performance.</p>
+            </div>
+          </li>
+          <li>
+            <div class="time">2023 — 2024</div>
+            <div class="item">
+              <h3>Intern · Company Name</h3>
+              <p>Contributed to various projects and gained hands-on experience in software development.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills">
+          <div>
+            <h4>Core</h4>
+            <ul class="bullets small">
+              <li>Python</li>
+              <li>C++</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Tools</h4>
+            <ul class="bullets small">
+              <li>Git & GitHub</li>
+              <li>Docker</li>
+              <li>Linux</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Domains</h4>
+            <ul class="bullets small">
+              <li>Robotics</li>
+              <li>Web</li>
+              <li>Computer Vision</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Open to internships, research, and freelance opportunities.</p>
+        <form class="contact" action="https://formspree.io/f/your-id" method="POST">
+          <label>
+            <span>Name</span>
+            <input required type="text" name="name" placeholder="Your name" />
+          </label>
+          <label>
+            <span>Email</span>
+            <input required type="email" name="email" placeholder="you@example.com" />
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea required name="message" rows="5" placeholder="How can I help?"></textarea>
+          </label>
+          <button class="btn" type="submit">Send</button>
+        </form>
+        <p class="tiny">Or email me at <a href="mailto:you@example.com">you@example.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Bryce McKinley</p>
+      <a href="#top" class="tiny">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
