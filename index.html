@@ -28,13 +28,13 @@
     <div class="info-flex">
       <div class="info-left">
         <h2>About</h2>
-        <div class="info-card-content">
-          <p><strong>Location:</strong> Groton, MA</p>
-          <p><strong>Email:</strong> bryce.j.mckinley@gmail.com</p>
-          <p><strong>Phone:</strong> (978) 302-1677</p>
-          <div class="links">
-            <a href="#" target="_blank" rel="noopener">LinkedIn Profile</a>
-          </div>
+        <div class="info-card-content" style="text-align:left;">
+          <ul style="list-style:none; padding:0; margin:0;">
+            <li><span style="font-weight:600; color:#7c3aed;">📍 Location:</span> Groton, MA</li>
+            <li><span style="font-weight:600; color:#7c3aed;">✉️ Email:</span> <a href="mailto:bryce.j.mckinley@gmail.com">bryce.j.mckinley@gmail.com</a></li>
+            <li><span style="font-weight:600; color:#7c3aed;">📞 Phone:</span> <a href="tel:+19783021677">(978) 302-1677</a></li>
+            <li><span style="font-weight:600; color:#7c3aed;">🔗</span> <a href="#" target="_blank" rel="noopener">LinkedIn Profile</a></li>
+          </ul>
         </div>
       </div>
       <div class="info-side" style="display: flex; justify-content: flex-end; align-items: center;">
@@ -48,16 +48,16 @@
     <div class="info-flex">
       <div class="info-left">
         <h2>Education</h2>
-        <div class="info-card-content">
-          <h3>Worcester Polytechnic Institute (WPI)</h3>
-          <span class="info-location">Worcester, MA</span>
-          <ul class="info-list">
-            <li>Bachelor of Science, Dual Major</li>
+        <div class="info-card-content" style="text-align:left;">
+          <h3 style="margin-bottom:0.2em;">Worcester Polytechnic Institute (WPI)</h3>
+          <span class="info-location" style="font-size:1.05em;">Worcester, MA</span>
+          <ul class="info-list" style="margin-top:0.7em;">
+            <li><strong>Bachelor of Science, Dual Major</strong></li>
             <li>Robotics Engineering and Computer Science</li>
           </ul>
-          <div class="info-highlight">
-            <strong>GPA:</strong> 3.69/4.0<br>
-            <strong>Expected Graduation:</strong> May 2025
+          <div class="info-highlight" style="margin-top:1em;">
+            <span style="font-weight:600; color:#7c3aed;">GPA:</span> 3.69/4.0<br>
+            <span style="font-weight:600; color:#7c3aed;">Expected Graduation:</span> May 2025
           </div>
         </div>
       </div>
@@ -67,24 +67,24 @@
 <section id="experience" class="main-section">
   <div class="info-card">
     <div class="info-flex">
-      <div>
+      <div class="info-left" style="flex:2;">
         <h2>Experience</h2>
-        <div class="info-card-content">
-          <h3>MITRE - Emerging Technology Student R&D</h3>
-          <span class="info-location">McLean, VA</span>
-          <span class="info-date">Jun. - Aug. 2024</span>
-          <ul class="info-list">
+        <div class="info-card-content" style="text-align:left;">
+          <h3 style="margin-bottom:0.2em;">MITRE - Emerging Technology Student R&D</h3>
+          <span class="info-location" style="font-size:1.05em;">McLean, VA</span>
+          <span class="info-date" style="margin-left:1em; font-size:1.05em;">Jun. - Aug. 2024</span>
+          <ul class="info-list" style="margin-top:0.7em;">
             <li>Developed real-time system health monitoring plugin for RViz (C++/Qt)</li>
             <li>Designed custom indicator lights for DART autonomous vehicle</li>
             <li>Collaborated in multidisciplinary robotics team</li>
             <li>Presented technical results to MITRE staff</li>
           </ul>
-          <p class="info-desc">Worked in the Mobile Autonomous Systems Experimentation (MASE) Lab as a technical aide, solving robotics challenges and presenting results to stakeholders.</p>
+          <p class="info-desc" style="margin-top:1em;">Worked in the Mobile Autonomous Systems Experimentation (MASE) Lab as a technical aide, solving robotics challenges and presenting results to stakeholders.</p>
         </div>
       </div>
-      <div class="info-side">
-        <div class="info-highlight">
-          <h4>Key Skills</h4>
+      <div class="info-side" style="flex:1; min-width:220px; max-width:380px;">
+        <div class="info-highlight" style="margin-bottom:1em;">
+          <h4 style="margin-bottom:0.5em; color:#7c3aed;">Key Skills</h4>
           <ul class="info-skills">
             <li>C++</li>
             <li>Qt</li>
@@ -94,10 +94,8 @@
           </ul>
         </div>
         <div class="info-quote">
-          <blockquote>
-            "Bryce demonstrated exceptional technical skill and teamwork in developing solutions for autonomous systems."
-          </blockquote>
-          <cite>— MITRE MASE Lab Supervisor</cite>
+          <blockquote style="font-size:1.05em; color:#6d28d9;">“Bryce demonstrated exceptional technical skill and teamwork in developing solutions for autonomous systems.”</blockquote>
+          <cite style="color:#a78bfa;">— MITRE MASE Lab Supervisor</cite>
         </div>
       </div>
     </div>
@@ -126,6 +124,88 @@
         </div>
       </article>
       <!-- Add more project-card articles as needed -->
+        <article class="project-card">
+          <div class="project-media">
+            <img src="Projects/Autonomous mapping an navigation/SLAM image.jpg" alt="Autonomous Mapping and Navigation" class="project-img" />
+          </div>
+          <div class="project-body">
+            <h3>Autonomous Mapping & Navigation</h3>
+            <p class="project-description">Utilizing Python and ROS Noetic mapped an unknown field with LiDAR by identifying frontiers, calculating c-space, and navigating with A*. Utilized Monte Carlo localization in the completed map.</p>
+            <ul class="project-skills-list">
+              <li>Python</li>
+              <li>ROS</li>
+              <li>LiDAR</li>
+              <li>Navigation</li>
+            </ul>
+          </div>
+          <div class="project-footer">
+            <a class="btn-sm btn-ghost" href="Projects/Autonomous mapping an navigation/Slam Final Paper.pdf" target="_blank" rel="noopener">View Paper</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-media">
+            <img src="Projects/Color Sorting arm/Color sorter image.jpg" alt="Color Sorting Arm" class="project-img" />
+          </div>
+          <div class="project-body">
+            <h3>Color Sorting Arm</h3>
+            <p class="project-description">Using a camera and a checkerboard of known size, implemented HSV image segmentation to isolate and target individual colored balls. In Matlab, coded a robotic arm, controlled with inverse kinematics calculated through the Denavit-Hartenberg convention, to grab and sort balls.</p>
+            <ul class="project-skills-list">
+              <li>Matlab</li>
+              <li>Computer Vision</li>
+              <li>Robotics</li>
+              <li>Inverse Kinematics</li>
+            </ul>
+          </div>
+          <div class="project-footer">
+            <a class="btn-sm btn-ghost" href="Projects/Color Sorting arm/Color Sorting Arm Paper.pdf" target="_blank" rel="noopener">View Paper</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-media">
+            <img src="Projects/Mini pizza delivery robot/Pizza bot image.jpg" alt="Mini Pizza Delivery Robot" class="project-img" />
+          </div>
+          <div class="project-body">
+            <h3>Mini Pizza Delivery Robot</h3>
+            <p class="project-description">TODO</p>
+            <ul class="project-skills-list">
+              <li>TODO</li>
+            </ul>
+          </div>
+          <div class="project-footer">
+            <a class="btn-sm btn-ghost" href="Projects/Mini pizza delivery robot/Intro to Robotics Final Paper.pdf" target="_blank" rel="noopener">View Paper</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-media">
+            <img src="Projects/Solar panel placer/Solar Image.jpg" alt="Solar Panel Placer" class="project-img" />
+          </div>
+          <div class="project-body">
+            <h3>Solar Panel Placer</h3>
+            <p class="project-description">TODO</p>
+            <ul class="project-skills-list">
+              <li>TODO</li>
+            </ul>
+          </div>
+          <div class="project-footer">
+            <a class="btn-sm btn-ghost" href="Projects/Solar panel placer/Solar Panel Placer Presentation.pdf" target="_blank" rel="noopener">View Presentation</a>
+            <a class="btn-sm btn-ghost" href="Projects/Solar panel placer/25vid.mp4" target="_blank" rel="noopener">View Video</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-media">
+            <img src="Projects/Three robot maze navigation/Three robot image.jpg" alt="Three Robot Maze Navigation" class="project-img" />
+          </div>
+          <div class="project-body">
+            <h3>Three Robot Maze Navigation</h3>
+            <p class="project-description">TODO</p>
+            <ul class="project-skills-list">
+              <li>TODO</li>
+            </ul>
+          </div>
+          <div class="project-footer">
+            <a class="btn-sm btn-ghost" href="Projects/Three robot maze navigation/Three robot Final.pdf" target="_blank" rel="noopener">View Paper</a>
+          </div>
+        </article>
     </div>
   </div>
 </section>
