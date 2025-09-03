@@ -45,12 +45,11 @@
   max-width: 320px;
 }
 html {
-  background: linear-gradient(135deg, #ede9fe 0%, #c4b5fd 100%);
+  background: #ede9fe;
   min-height: 100%;
 }
 body {
-  background: repeating-radial-gradient(circle at 20% 30%, #a78bfa22 0px, #ede9fe 40px, transparent 80px),
-              repeating-radial-gradient(circle at 80% 70%, #c4b5fd22 0px, #ede9fe 60px, transparent 120px);
+  background: #ede9fe;
   min-height: 100vh;
 }
 
