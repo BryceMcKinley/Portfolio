@@ -27,7 +27,7 @@
 }
 .about-flex {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 2.5rem;
 }
 .hero-about-flex {
@@ -56,13 +56,37 @@
   max-width: 320px;
 }
 html {
-  background: linear-gradient(135deg, #ede9fe 0%, #c4b5fd 100%);
+  background: linear-gradient(120deg, #ede9fe 0%, #f8f6ff 100%);
   min-height: 100%;
 }
 body {
-  background: repeating-radial-gradient(circle at 20% 30%, #a78bfa22 0px, #ede9fe 40px, transparent 80px),
-              repeating-radial-gradient(circle at 80% 70%, #c4b5fd22 0px, #ede9fe 60px, transparent 120px);
+  background: #f8f6ff;
   min-height: 100vh;
+}
+
+/* Accent header styles */
+.accent-header {
+  width: 100vw;
+  background: linear-gradient(90deg, #a78bfa 0%, #c4b5fd 100%);
+  color: #fff;
+  padding: 2.5rem 0 2rem 0;
+  border-bottom: 6px solid #ede9fe;
+}
+.hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Section content centering and width */
+.section-content {
+  max-width: 900px;
+  width: 75vw;
+  margin: 0 auto 2.5rem auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(167,139,250,0.10);
+  padding: 2.5rem 3.5rem;
 }
 
 /* Experience Section Styles */
