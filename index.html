@@ -16,42 +16,69 @@
 
   <main id="main">
     <section class="hero card-section">
-      <div class="card-full hero-card" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-        <p class="eyebrow">Robotics · Software · Systems</p>
-        <h1 class="hero-title">Bryce McKinley</h1>
-        <p class="hero-subtitle">Robotics & Computer Science student at WPI. Passionate about autonomous systems, software engineering, and real-world problem solving.</p>
-        <div class="hero-cta">
-          <a class="btn" href="#projects">See Projects</a>
-          <a class="btn btn-ghost" href="Bryce%20McKinley%20-%20%20Resume.pdf" target="_blank" rel="noopener">Download Résumé (PDF)</a>
+      <div class="card-full hero-card" style="position: relative; overflow: hidden;">
+        <!-- Decorative SVG Accent -->
+        <svg class="hero-accent" width="340" height="340" viewBox="0 0 340 340" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: absolute; top: -60px; right: -80px; z-index: 0;">
+          <circle cx="170" cy="170" r="170" fill="url(#paint0_radial)" fill-opacity="0.35"/>
+          <defs>
+            <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientTransform="translate(170 170) scale(170)">
+              <stop stop-color="#a78bfa"/>
+              <stop offset="1" stop-color="#7c3aed"/>
+            </radialGradient>
+          </defs>
+        </svg>
+        <div style="position: relative; z-index: 1;">
+          <p class="eyebrow">Robotics · Software · Systems</p>
+          <h1 class="hero-title" style="font-size: 3.2rem; font-weight: 900; letter-spacing: 2px; margin-bottom: 0.5rem; color: #fff; text-shadow: 0 2px 16px rgba(124,58,237,0.18);">Bryce McKinley</h1>
+          <p class="hero-subtitle" style="font-size: 1.4rem; font-weight: 500; margin-bottom: 1.2rem; color: #ede9fe;">Robotics & Computer Science student at WPI.<br>Passionate about autonomous systems, software engineering, and real-world problem solving.</p>
+          <div class="hero-cta">
+            <a class="btn" href="#projects">See Projects</a>
+            <a class="btn btn-ghost" href="Bryce%20McKinley%20-%20%20Resume.pdf" target="_blank" rel="noopener">Download Résumé (PDF)</a>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="about" class="section card-section">
       <div class="card-full">
-        <div class="about-flex" style="flex-direction: row; align-items: flex-start;">
-          <div style="text-align: left;">
+        <div class="experience-flex">
+          <div class="experience-left">
             <h2>About</h2>
-            <p><strong>Location:</strong> Groton, MA</p>
-            <p><strong>Email:</strong> bryce.j.mckinley@gmail.com</p>
-            <p><strong>Phone:</strong> (978) 302-1677</p>
-            <div class="links">
-              <a href="#" target="_blank" rel="noopener">LinkedIn Profile</a>
+            <div class="exp-card">
+              <p><strong>Location:</strong> Groton, MA</p>
+              <p><strong>Email:</strong> bryce.j.mckinley@gmail.com</p>
+              <p><strong>Phone:</strong> (978) 302-1677</p>
+              <div class="links">
+                <a href="#" target="_blank" rel="noopener">LinkedIn Profile</a>
+              </div>
             </div>
           </div>
-          <img src="Profile Picture.jpg" alt="Portrait" class="profile-pic-right" style="position: absolute; right: -40px; top: 50%; transform: translateY(-50%); width: 220px; height: 220px; object-fit: cover; border-radius: 50%; border: 8px solid #fff; box-shadow: 0 2px 24px rgba(167,139,250,0.18); background: #fff;" />
+          <div class="exp-side" style="display: flex; justify-content: flex-end; align-items: center;">
+            <img src="Profile Picture.jpg" alt="Portrait" class="profile-pic-large" />
+          </div>
         </div>
       </div>
     </section>
 
     <section id="education" class="section card-section">
       <div class="card-full">
-        <h2>Education</h2>
-        <ul class="bullets">
-          <li><strong>Worcester Polytechnic Institute (WPI)</strong>, Worcester, MA</li>
-          <li>Bachelor of Science, Dual Major, Robotics Engineering and Computer Science</li>
-          <li>GPA: 3.69/4.0, Expected May 2025</li>
-        </ul>
+        <div class="experience-flex">
+          <div class="experience-left">
+            <h2>Education</h2>
+            <div class="exp-card">
+              <h3>Worcester Polytechnic Institute (WPI)</h3>
+              <span class="exp-location">Worcester, MA</span>
+              <ul class="exp-list">
+                <li>Bachelor of Science, Dual Major</li>
+                <li>Robotics Engineering and Computer Science</li>
+              </ul>
+              <div class="exp-highlight">
+                <strong>GPA:</strong> 3.69/4.0<br>
+                <strong>Expected Graduation:</strong> May 2025
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 

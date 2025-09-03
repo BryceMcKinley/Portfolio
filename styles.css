@@ -22,8 +22,10 @@
   border-radius: 16px;
   box-shadow: 0 2px 16px rgba(167,139,250,0.10);
   padding: 2.5rem 3.5rem;
-  max-width: 1000px;
-  margin: 0 auto 2.5rem auto;
+  max-width: 75vw;
+  min-width: 320px;
+  width: 75vw;
+  margin: 0 auto 1.2rem auto;
 }
 .about-flex {
   display: flex;
@@ -59,6 +61,15 @@ html {
   background: #ede9fe;
   min-height: 100%;
 }
+
+@media (max-width: 900px) {
+  .card-full {
+    max-width: 95vw;
+    width: 95vw;
+    padding: 1.2rem 0.5rem;
+  }
+}
+  /* removed extra closing brace */
 body {
   background: #ede9fe;
   min-height: 100vh;
@@ -91,18 +102,77 @@ body {
   box-shadow: 0 2px 16px rgba(167,139,250,0.18);
   margin-bottom: 1.5rem;
 }
-.exp-card {
-  background: #f8f6ff;
-  border-radius: 12px;
-  box-shadow: 0 2px 12px rgba(167,139,250,0.08);
-  padding: 1.5rem 1.5rem 1rem 1.5rem;
-  margin-bottom: 1rem;
+.profile-pic-large {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 24px rgba(167,139,250,0.18);
+  border: 8px solid #fff;
+  background: #fff;
 }
-.exp-card h3 {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.25rem;
+.exp-card {
+  background: linear-gradient(100deg, #a78bfa 0%, #7c3aed 100%);
+  border-radius: 24px;
+  box-shadow: 0 6px 36px rgba(124,58,237,0.14);
+  padding: 4rem 5vw 4rem 5vw;
+  max-width: 75vw;
+  margin: 0 auto 2.5rem auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.hero-accent {
+  pointer-events: none;
+}
+  /* removed extra closing brace */
+.hero-title {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  text-shadow: 0 2px 16px rgba(124,58,237,0.18);
+}
+.hero-subtitle {
+  font-size: 1.35rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  color: #ede9fe;
+}
+.eyebrow {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #ede9fe;
+  margin-bottom: 0.7rem;
+}
+.hero-cta {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+.btn, .btn-ghost {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+.btn:hover {
+  background: #7c3aed;
+  color: #fff;
+}
+.btn-ghost:hover {
+  background: #ede9fe;
   color: #7c3aed;
 }
+  /* removed extra closing brace */
 .exp-location, .exp-date {
   display: inline-block;
   font-size: 1rem;
