@@ -1,0 +1,40 @@
+ BRYCE MCKINLEY
+(978) 302-1677, bryce.j.mckinley@gmail.com
+Groton, MA
+LinkedIn Profile 
+
+skills
+Programming: Python, Java, MATLAB, C++, C, Robot-C, Racket, Matlab, JavaScript
+Software: SolidWorks, Mathcad, Git, Jira, Robot Operating System (ROS & ROS2), Ubuntu Linux, Gazebo Simulator, RViz, Scene Builder, Qt, Artificial Intelligence, Machine Learning
+Robotics: Actuation, Manipulation, Sensing, Navigation
+General: Scrum Workflow, Front-End GUI Development, Embedded Application Development, 3D Printing, Laser Cutting, Networking
+education
+Worcester Polytechnic Institute (WPI), Worcester, MA	May 2025
+	Bachelor of Science, Dual Major, Robotics Engineering and Computer Science.		GPA 3.69/4.0
+internship
+MITRE - Emerging Technology Student R&D, McLean VA	Jun. - Aug. 2024
+Served as a technical aide in the Mobile Autonomous Systems Experimentation (MASE) Lab as a part of the Emerging Technologies program.
+Developed a system health monitoring RViz plugin utilizing C++ and a Qt interface.
+Designed exterior and interior indicator lights to be mounted on the DART autonomous vehicle.
+academic projects
+WPI Sailbot, Worcester, MA	Aug. 2024 - May 2025
+Developed and improved features for the WPI Sailbot, a 2-meter autonomous sailboat.
+Upgraded control application for simulation and expanded navigation to utilize computer vision.
+Helped to implement a new electrical system, replace the wingsail, and introduce motion dampening.
+Color Sorting Arm, Worcester, MA	Jan. - Mar. 2024
+Using a camera and a checkerboard of known size, implemented HSV image segmentation to isolate and target individual colored balls.
+In Matlab, coded a robotic arm, controlled with inverse kinematics calculated through the Denavit-Hartenberg convention, to grab and sort balls.
+Autonomous Mapping, Worcester, MA	Oct. - Dec. 2022
+Utilizing Python and ROS Noetic mapped an unknown field with LiDAR by identifying frontiers, calculating c-space, and navigating with A*. Utilized Monte Carlo localization in the completed map.
+Kiosk Application, Worcester, MA	Mar. - May 2023
+Specialized in front-end in a group of ten software engineers designing a prospective informational kiosk application for use at Brigham and Women's Hospital.  
+Utilized engineering practices such as Jira, Scrum, and weekly sprints to ensure efficient workflow.
+work experience
+Lowe’s: Outside Lawn & Garden Sales Associate, Lowell, MA	 May - Aug. 2022
+activities and interests
+Mechanical Team Lead for Team 1277, FIRST Robotics	2020 - 2021
+Competitive Climbing Club, WPI 	2021 - Present
+awards and accomplishments
+WPI Dean’s List 	2023 - 2024
+National Honor Society 	May 2020
+BSA Eagle Scout Award	Sept. 2020
