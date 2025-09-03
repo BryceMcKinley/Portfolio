@@ -55,7 +55,12 @@
 }
 .exp-side {
   min-width: 220px;
-  max-width: 320px;
+  max-width: 380px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  overflow: visible;
 }
 html {
   background: #ede9fe;
@@ -103,13 +108,19 @@ body {
   margin-bottom: 1.5rem;
 }
 .profile-pic-large {
-  width: 260px;
-  height: 260px;
+  width: 320px;
+  height: 380px;
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: 0 2px 24px rgba(167,139,250,0.18);
-  border: 8px solid #fff;
+  box-shadow: 0 2px 32px rgba(167,139,250,0.18);
+  border: 10px solid #fff;
   background: #fff;
+  position: relative;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  margin-right: -40px;
+  margin-top: 0;
 }
 .exp-card {
   background: linear-gradient(100deg, #a78bfa 0%, #7c3aed 100%);
@@ -482,4 +493,43 @@ body {
 
 .tiny {
   font-size: 0.8rem;
+}
+.main-header {
+  width: 100vw;
+  background: linear-gradient(90deg, #7c3aed 0%, #a78bfa 100%);
+  color: #fff;
+  padding: 3.5rem 0 2.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 32px rgba(124,58,237,0.10);
+  position: relative;
+  z-index: 10;
+}
+.header-content {
+  text-align: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.main-header .hero-title {
+  font-size: 3.2rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  text-shadow: 0 2px 16px rgba(124,58,237,0.18);
+}
+.main-header .hero-subtitle {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  color: #ede9fe;
+}
+.main-header .eyebrow {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #ede9fe;
+  margin-bottom: 0.7rem;
 }
