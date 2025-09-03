@@ -1,3 +1,114 @@
+html {
+  background: linear-gradient(135deg, #ede9fe 0%, #c4b5fd 100%);
+  min-height: 100%;
+}
+body {
+  background: repeating-radial-gradient(circle at 20% 30%, #a78bfa22 0px, #ede9fe 40px, transparent 80px),
+              repeating-radial-gradient(circle at 80% 70%, #c4b5fd22 0px, #ede9fe 60px, transparent 120px);
+  min-height: 100vh;
+}
+
+/* Experience Section Styles */
+.experience-section {
+  background: rgba(255,255,255,0.85);
+  border-radius: 18px;
+  box-shadow: 0 4px 32px rgba(167,139,250,0.10);
+  margin-bottom: 2.5rem;
+  padding: 2.5rem 0;
+}
+.experience-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  align-items: center;
+}
+.experience-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 16px rgba(167,139,250,0.18);
+  margin-bottom: 1.5rem;
+}
+.exp-card {
+  background: #f8f6ff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(167,139,250,0.08);
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
+  margin-bottom: 1rem;
+}
+.exp-card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+  color: #7c3aed;
+}
+.exp-location, .exp-date {
+  display: inline-block;
+  font-size: 1rem;
+  color: #a78bfa;
+  margin-right: 1.2rem;
+}
+.exp-list {
+  list-style: disc inside;
+  margin: 0.5rem 0 0.5rem 0;
+  padding-left: 1.2rem;
+  color: #444;
+}
+.exp-desc {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+.experience-right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+}
+.exp-highlight {
+  background: #ede9fe;
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 1px 8px rgba(167,139,250,0.07);
+}
+.exp-highlight h4 {
+  margin: 0 0 0.5rem 0;
+  color: #7c3aed;
+}
+.exp-skills {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+  margin: 0;
+}
+.exp-skills li {
+  background: #c4b5fd;
+  color: #fff;
+  border-radius: 4px;
+  padding: 0.3rem 0.9rem;
+  font-size: 0.98rem;
+}
+.exp-quote {
+  background: #f3f0ff;
+  border-left: 4px solid #a78bfa;
+  padding: 1rem 1.2rem;
+  border-radius: 10px;
+  font-style: italic;
+  color: #6d28d9;
+}
+.exp-quote cite {
+  display: block;
+  margin-top: 0.7rem;
+  font-size: 0.95rem;
+  color: #a78bfa;
+}
 .btn {
   background: #a78bfa;
   color: #fff;
