@@ -1,3 +1,49 @@
+/* Hero card formatting to match card sections */
+.hero-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(167,139,250,0.10);
+  padding: 2.5rem 2rem;
+  max-width: 1100px;
+  margin: 0 auto 2.5rem auto;
+  text-align: center;
+}
+/* Card-like full-width sections for About and Experience */
+.card-section {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 2.5rem;
+}
+.card-full {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(167,139,250,0.10);
+  padding: 2.5rem 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.about-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+}
+.profile-pic-small {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(167,139,250,0.18);
+  margin-top: 0.5rem;
+}
+.experience-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+}
+.exp-side {
+  min-width: 220px;
+  max-width: 320px;
+}
 html {
   background: linear-gradient(135deg, #ede9fe 0%, #c4b5fd 100%);
   min-height: 100%;
