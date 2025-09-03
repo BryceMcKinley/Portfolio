@@ -109,7 +109,7 @@ body {
 }
 .profile-pic-large {
   width: 320px;
-  height: 380px;
+  height: 320px;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 2px 32px rgba(167,139,250,0.18);
@@ -119,8 +119,10 @@ body {
   right: 0;
   top: 0;
   z-index: 2;
-  margin-right: -40px;
+  margin-right: 0;
   margin-top: 0;
+  display: block;
+  overflow: hidden;
 }
 .exp-card {
   background: linear-gradient(100deg, #a78bfa 0%, #7c3aed 100%);
@@ -496,8 +498,8 @@ body {
 }
 .main-header {
   width: 100vw;
-  background: linear-gradient(90deg, #7c3aed 0%, #a78bfa 100%);
-  color: #fff;
+  background: linear-gradient(90deg, #f3f0ff 0%, #c4b5fd 100%);
+  color: #222;
   padding: 3.5rem 0 2.5rem 0;
   display: flex;
   align-items: center;
@@ -505,6 +507,8 @@ body {
   box-shadow: 0 4px 32px rgba(124,58,237,0.10);
   position: relative;
   z-index: 10;
+  border-bottom: 6px solid #7c3aed;
+  border-radius: 0 0 24px 24px;
 }
 .header-content {
   text-align: center;
@@ -517,19 +521,19 @@ body {
   font-weight: 900;
   letter-spacing: 2px;
   margin-bottom: 0.5rem;
-  color: #fff;
-  text-shadow: 0 2px 16px rgba(124,58,237,0.18);
+  color: #7c3aed;
+  text-shadow: none;
 }
 .main-header .hero-subtitle {
   font-size: 1.4rem;
   font-weight: 500;
   margin-bottom: 1.2rem;
-  color: #ede9fe;
+  color: #6d28d9;
 }
 .main-header .eyebrow {
   font-size: 1.1rem;
   font-weight: 600;
   letter-spacing: 2px;
-  color: #ede9fe;
+  color: #a78bfa;
   margin-bottom: 0.7rem;
 }
