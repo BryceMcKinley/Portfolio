@@ -1,14 +1,14 @@
-body {
-  font-family: 'Inter', sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
+.btn {
+  background: #a78bfa;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
 }
-
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
+.btn-ghost {
+  background: transparent;
+  border: 1px solid #a78bfa;
+  color: #a78bfa;
 }
 
 .site-header {
@@ -112,7 +112,7 @@ body {
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-  border: 2.5px solid #007bff;
+  border: 2.5px solid #a78bfa;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -120,6 +120,7 @@ body {
 }
 .card:hover {
   box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  border-color: #c4b5fd;
 }
 .card-media {
   width: 100%;
@@ -158,8 +159,8 @@ body {
   margin: 0;
 }
 .skills-list li {
-  background: #f0f4ff;
-  color: #007bff;
+  background: #ede9fe;
+  color: #a78bfa;
   border-radius: 4px;
   padding: 0.25rem 0.75rem;
   font-size: 0.95rem;
@@ -175,7 +176,7 @@ body {
   padding: 0.3rem 0.8rem;
   border-radius: 4px;
   text-decoration: none;
-  background: #007bff;
+  background: #a78bfa;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -183,8 +184,8 @@ body {
 }
 .btn-sm.btn-ghost {
   background: transparent;
-  color: #007bff;
-  border: 1px solid #007bff;
+  color: #a78bfa;
+  border: 1px solid #a78bfa;
 }
 .btn-sm[aria-disabled="true"] {
   opacity: 0.5;
