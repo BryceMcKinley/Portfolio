@@ -38,3 +38,53 @@ awards and accomplishments
 WPI Dean’s List 	2023 - 2024
 National Honor Society 	May 2020
 BSA Eagle Scout Award	Sept. 2020
+
+
+
+ BRYCE MCKINLEY
+(978) 302-1677, bryce.j.mckinley@gmail.com
+Groton, MA
+LinkedIn Profile 
+
+skills
+Programming: Python, Java, MATLAB, C++, C, Robot-C, Racket
+Software: SolidWorks, Mathcad, Jira, Robot Operating System (ROS), Ubuntu Linux, Git, Gazebo Simulator, RViz, Scene Builder, Artificial Intelligence, Machine Learning, Qt, ROS2
+Robotics: Actuation, Manipulation, Sensing, Navigation
+General: Scrum Workflow, Front-End GUI Development, Embedded Application Development, 3D Printing, Laser Cutting
+education
+Worcester Polytechnic Institute (WPI), Worcester MA	May 2025
+	Bachelor of Science in Robotics Engineering		GPA 3.77/4.0
+	Bachelor of Science in Computer Science
+internship
+MITRE - Emerging Technology Student R&D, McLean VA	Jun. - Aug. 2024
+Served as a Technical Aide under Dr. James Ellenbogen and mentored by Dean Conte in the Mobile Autonomous Systems Experimentation Lab.
+Developed a system health monitoring RViz plugin utilizing C++ and a Qt interface.
+Designed exterior and interior indicator lights to be mounted on the DART autonomous vehicle.
+academic projects
+Color Sorting Arm, Worcester MA	Jan. - Mar. 2024
+Using a camera and checkerboard of known size, implemented HSV image segmentation to isolate and target individual colored balls.
+Coded a robotic arm, controlled with inverse kinematics calculated with the Denavit-Hartenberg convention, to grab and sort balls.
+Autonomous Mapping, Worcester MA	Oct. - Dec. 202
+Utilizing Python and ROS Noetic mapped an unknown field with LiDAR by identifying frontiers, calculating c-space, and navigating with A*.
+Employed Monte Carlo localization to locate the robot after it was moved to a random location.
+Finding Purpose, Backpacking in Panama, Panama City Panama	Aug. - Oct. 2023
+Investigated the connection between backpacking and developing a sense of purpose by conducting archival research, surveys, interviews, and an ethnography in Panama.
+Kiosk Application, Worcester MA	Mar. - May 2023
+Specialized in front-end in a group of ten software engineers designing a prospective informational kiosk application for use at Brigham and Women's Hospital.  
+Utilized software engineering practices such as Jira, Scrum, and weekly sprints to ensure efficient workflow.
+Robotic Sensors, Worcester MA	Nov. - Dec. 2022
+Designed, built, and coded in C++ three coordinated robots that communicated via an MQTT Broker to navigate a randomized field.
+Used PID control, ICC kinematics, inverse kinematics, IMU sensors, and vision processing of AprilTags.
+Pizza Delivery Robots, Worcester MA	Sept. - Oct. 2022
+Designed in SolidWorks and 3D printed two distinct four-bar mechanism and grabber robots.
+Performed mechanical analysis of the systems, including linkage synthesis, force analysis, and cost.
+Coded in C++ a dynamic state machine that could adapt to changing starting conditions.
+work experience
+Lowe’s: Outside Lawn & Garden Sales Associate, Lowell MA	5/22 - 8/22 
+activities and interests
+Mechanical Team Lead for Team 1277, FIRST Robotics	2020 - 2021
+Competitive Climbing Club, WPI 	2021 - Present
+awards and accomplishments
+WPI Dean’s List 	2023 - 2024
+National Honor Society 	May 2020
+BSA Eagle Scout Award	Sept. 2020
