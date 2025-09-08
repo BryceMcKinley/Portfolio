@@ -1,3 +1,47 @@
+/* Contact section custom flex layout */
+.contact-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  width: 100%;
+}
+.contact-info {
+  flex: 1 1 0;
+  min-width: 180px;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.contact-info-right {
+  align-items: flex-end;
+  text-align: right;
+}
+.profile-pic-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px;
+  max-width: 340px;
+}
+@media (max-width: 900px) {
+  .contact-flex {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .contact-info, .contact-info-right {
+    align-items: center !important;
+    text-align: center !important;
+    width: 100%;
+  }
+  .profile-pic-center {
+    min-width: 180px;
+    max-width: 100vw;
+  }
+}
 /* Header section styles */
 body {
   background: #f7f9fb;
