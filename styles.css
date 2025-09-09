@@ -1,3 +1,81 @@
+/* Education section custom styles */
+.education-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  width: 100%;
+}
+.education-details {
+  flex: 2 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 220px;
+}
+.education-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.7em;
+  color: #2e4a7d;
+}
+.education-school-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 1.2rem;
+  margin-bottom: 0.2em;
+}
+.education-school {
+  font-size: 1.18rem;
+  font-weight: 600;
+  margin: 0;
+  color: #1a2740;
+}
+.education-location {
+  font-size: 1.05em;
+  color: #2e4a7d;
+}
+.education-degree-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 0.5em;
+}
+.education-degree {
+  font-size: 1.08rem;
+  color: #222;
+}
+.education-majors {
+  font-size: 1.08rem;
+  color: #444;
+}
+.education-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 0.7em;
+}
+.education-gpa, .education-grad {
+  font-size: 1.05rem;
+  color: #2e4a7d;
+}
+@media (max-width: 900px) {
+  .education-flex {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .education-details {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+}
 /* WPI logo right alignment in education section */
 .wpi-logo-right {
   display: flex;
