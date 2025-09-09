@@ -1,93 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bryce McKinley - Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 40px;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    h1, h2 {
-      color: #222;
-    }
-    .project {
-      margin-bottom: 20px;
-      padding: 15px;
-      background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    .skills {
-      font-style: italic;
-      color: #555;
-    }
-  </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bryce McKinley · Portfolio</title>
+  <meta name="description" content="I build reliable, real-time systems and delightful UIs." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
 </head>
 <body>
-
-  <h1>Bryce McKinley - Project Portfolio</h1>
-
-  <h2>Internship</h2>
-  <div class="project">
-    <h3>MITRE – Emerging Technology Student R&D (2024)</h3>
-    <p>Worked in the Mobile Autonomous Systems Experimentation Lab to support autonomous vehicle research. Developed a C++ RViz plugin with a Qt interface for system health monitoring and designed external and internal indicator lights for the DART autonomous platform, enhancing safety and usability.</p>
-    <p class="skills">Skills: C++, Qt GUI design, robotics visualization, hardware–software integration</p>
+<header class="header-section">
+  <div class="header-content">
+    <p class="header-eyebrow">Robotics · Software · Systems</p>
+    <h1 class="header-title">Bryce McKinley</h1>
+  <p class="header-subtitle">Robotics & Computer Science graduate from WPI.<br>Passionate about autonomous systems, software engineering, and real-world problem solving.</p>
+    <div class="header-cta">
+  <a class="btn" href="#projects">See Projects</a>
+  <a class="btn" href="Bryce%20McKinley%20-%20%20Resume.pdf" target="_blank" rel="noopener">Download Résumé (PDF)</a>
+    </div>
   </div>
-
-  <h2>Academic Projects</h2>
-
-  <div class="project">
-    <h3>WPI Sailbot (2024–2025)</h3>
-    <p>Contributed to the development of WPI’s 2-meter autonomous sailboat by upgrading the control application for simulation, expanding navigation to utilize computer vision, and assisting in electrical system improvements. Implemented a new wingsail and motion-dampening systems to improve stability and efficiency.</p>
-    <p class="skills">Skills: control systems, computer vision, embedded electronics, mechanical prototyping</p>
+</header>
+<main id="main">
+<section id="about" class="main-section">
+  <div class="info-card" style="margin-bottom:1.5rem;">
+    <h2 style="margin-bottom:0.7em;">About Me</h2>
+    <div class="info-card-content" style="font-size:1.13em; color:#222; text-align:left;">
+      <!-- Write your general introduction here -->
+      <p>
+        I am a passionate robotics and computer science graduate with a love for building autonomous systems and solving real-world problems. My work spans software engineering, robotics, and system design, with a focus on reliability and innovation. I thrive in multidisciplinary teams and enjoy tackling technical challenges that make a difference.
+      </p>
+    </div>
   </div>
-
-  <div class="project">
-    <h3>Color Sorting Arm (2024)</h3>
-    <p>Built a robotic arm system that detected and sorted colored balls using HSV segmentation and inverse kinematics derived from the Denavit–Hartenberg convention. Combined image processing with robotic manipulation to achieve real-time automation.</p>
-    <p class="skills">Skills: image segmentation, inverse kinematics, robotic arm programming, Matlab simulation</p>
+  <div class="info-card">
+    <div class="contact-flex">
+      <div class="contact-info contact-info-left">
+        <h2>Contact</h2>
+        <div class="info-card-content">
+          <ul style="list-style:none; padding:0; margin:0;">
+            <li><span style="font-weight:600; color:#2e4a7d;">📍 Location:</span> Groton, MA</li>
+            <li><span style="font-weight:600; color:#2e4a7d;">✉️ Email:</span> <a href="mailto:bryce.j.mckinley@gmail.com">bryce.j.mckinley@gmail.com</a></li>
+            <li><span style="font-weight:600; color:#2e4a7d;">📞 Phone:</span> <a href="tel:+19783021677">(978) 302-1677</a></li>
+            <li><span style="font-weight:600; color:#2e4a7d;">🔗</span> <a href="#" target="_blank" rel="noopener">LinkedIn Profile</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="profile-pic-center">
+        <img src="Profile Picture.jpg" alt="Portrait" class="profile-pic-large" />
+      </div>
+      <div class="contact-info contact-info-right">
+        <h2>Contact</h2>
+        <div class="info-card-content">
+          <ul style="list-style:none; padding:0; margin:0;">
+            <li><span style="font-weight:600; color:#2e4a7d;">📍 Location:</span> Groton, MA</li>
+            <li><span style="font-weight:600; color:#2e4a7d;">✉️ Email:</span> <a href="mailto:bryce.j.mckinley@gmail.com">bryce.j.mckinley@gmail.com</a></li>
+            <li><span style="font-weight:600; color:#2e4a7d;">📞 Phone:</span> <a href="tel:+19783021677">(978) 302-1677</a></li>
+            <li><span style="font-weight:600; color:#2e4a7d;">🔗</span> <a href="#" target="_blank" rel="noopener">LinkedIn Profile</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
-
-  <div class="project">
-    <h3>Autonomous Mapping (2022)</h3>
-    <p>Developed an autonomous mapping pipeline in Python and ROS Noetic using LiDAR. The system identified frontiers, calculated configuration space, and navigated via A*, while Monte Carlo localization enabled recovery from unknown positions.</p>
-    <p class="skills">Skills: SLAM concepts, LiDAR integration, path planning (A*), probabilistic localization</p>
+</section>
+<section id="education" class="main-section">
+  <div class="info-card">
+    <div class="info-flex">
+      <div class="info-left">
+        <h2>Education</h2>
+        <div class="info-card-content" style="text-align:left;">
+          <h3 style="margin-bottom:0.2em;">Worcester Polytechnic Institute (WPI)</h3>
+          <span class="info-location" style="font-size:1.05em;">Worcester, MA</span>
+          <ul class="info-list" style="margin-top:0.7em;">
+            <li><strong>Bachelor of Science, Dual Major</strong></li>
+            <li>Robotics Engineering and Computer Science</li>
+          </ul>
+          <div class="info-highlight" style="margin-top:1em;">
+            <span style="font-weight:600; color:#2e4a7d;">GPA:</span> 3.69/4.0<br>
+            <span style="font-weight:600; color:#2e4a7d;">Graduated:</span> May 2025
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-
-  <div class="project">
-    <h3>Kiosk Application (2023)</h3>
-    <p>Specialized in front-end development within a ten-person team designing an informational kiosk application for Brigham and Women’s Hospital. Applied Scrum with Jira to coordinate sprints and implemented user interface features to streamline patient and visitor navigation.</p>
-    <p class="skills">Skills: front-end design, Agile workflow, requirements gathering, collaborative software engineering</p>
+</section>
+<section id="experience" class="main-section">
+  <div class="info-card">
+    <div class="info-flex">
+      <div class="info-left" style="flex:2;">
+        <h2>Experience</h2>
+        <div class="info-card-content" style="text-align:left;">
+          <h3 style="margin-bottom:0.2em;">MITRE - Emerging Technology Student R&D</h3>
+          <span class="info-location" style="font-size:1.05em;">McLean, VA</span>
+          <span class="info-date" style="margin-left:1em; font-size:1.05em;">Jun. - Aug. 2024</span>
+          <p class="info-desc" style="margin-top:1em;">Worked in the Mobile Autonomous Systems Experimentation Lab to support autonomous vehicle research. Developed a C++ RViz plugin with a Qt interface for system health monitoring and designed external and internal indicator lights for the DART autonomous platform, enhancing safety and usability.</p>
+        </div>
+      </div>
+      <div class="info-side" style="flex:1; min-width:220px; max-width:380px;">
+        <div class="info-highlight" style="margin-bottom:1em;">
+          <h4 style="margin-bottom:0.5em; color:#2e4a7d;">Key Skills</h4>
+          <ul class="info-skills">
+            <li>C++</li>
+            <li>Qt GUI Design</li>
+            <li>Hardware Software Integration</li>
+            <li>System Monitoring</li>
+            <li>Team Collaboration</li>
+          </ul>
+        </div>
+        <div class="info-quote">
+          <blockquote style="font-size:1.05em; color:#2e4a7d;">“Bryce demonstrated exceptional technical skill and teamwork in developing solutions for autonomous systems.”</blockquote>
+          <cite style="color:#2e4a7d;">— MITRE MASE Lab Supervisor</cite>
+        </div>
+      </div>
+    </div>
   </div>
-
-  <div class="project">
-    <h3>Finding Purpose: Backpacking in Panama (2023)</h3>
-    <p>Investigated the connection between backpacking and a sense of purpose through archival research, surveys, interviews, and ethnographic fieldwork in Panama. Produced a cultural analysis of identity, exploration, and personal development.</p>
-    <p class="skills">Skills: ethnographic research, qualitative data analysis, cross-cultural communication, survey design</p>
+</section>
+<section id="projects" class="main-section">
+  <div class="info-card">
+    <h2>Projects</h2>
+    <div class="project-cards">
+      <!-- Example Project Card -->
+      <article class="project-card">
+        <div class="project-media">
+          <img src="Projects/Sailbot/Sailbot image.jpg" alt="WPI Sailbot" class="project-img" />
+        </div>
+        <div class="project-body">
+          <h3>WPI Sailbot</h3>
+            Contributed to the development of WPI’s 2-meter autonomous sailboat by upgrading the control application for simulation, expanding navigation to utilize computer vision, and assisting in electrical system improvements. Implemented a new wingsail and motion-dampening systems to improve stability and efficiency.
+          <ul class="project-skills-list">
+            <li>Python</li>
+            <li>Computer Vision</li>
+            <li>Robotics</li>
+          </ul>
+        </div>
+        <div class="project-footer">
+          <a class="btn-sm btn-ghost" href="Projects/Sailbot/Sailbot final paper.pdf" target="_blank" rel="noopener">View Paper</a>
+        </div>
+      </article>
+        <article class="project-card">
+          <div class="project-media">
+            <img src="Projects/Autonomous mapping an navigation/SLAM image.jpg" alt="Autonomous Mapping and Navigation" class="project-img" />
+          </div>
+          <div class="project-body">
+            <h3>Autonomous Mapping & Navigation</h3>
+            <p class="project-description">Developed an autonomous mapping pipeline in Python and ROS Noetic using LiDAR. The system identified frontiers, calculated configuration space, and navigated via A*, while Monte Carlo localization enabled recovery from unknown positions.</p>
+            <ul class="project-skills-list">
+              <li>Python</li>
+              <li>ROS</li>
+              <li>LiDAR</li>
+              <li>Navigation</li>
+            </ul>
+          </div>
+          <div class="project-footer">
+            <a class="btn-sm btn-ghost" href="Projects/Autonomous mapping an navigation/Slam Final Paper.pdf" target="_blank" rel="noopener">View Paper</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-media">
+            <img src="Projects/Color Sorting arm/Color sorter image.jpg" alt="Color Sorting Arm" class="project-img" />
+          </div>
+          <div class="project-body">
+            <h3>Color Sorting Arm</h3>
+            <p class="project-description">Built a robotic arm system that detected and sorted colored balls using HSV segmentation and inverse kinematics derived from the Denavit–Hartenberg convention. Combined image processing with robotic manipulation to achieve real-time automation.</p>
+            <ul class="project-skills-list">
+              <li>Matlab</li>
+              <li>Computer Vision</li>
+              <li>Manipulation</li>
+              <li>Inverse Kinematics</li>
+            </ul>
+          </div>
+          <div class="project-footer">
+            <a class="btn-sm btn-ghost" href="Projects/Color Sorting arm/Color Sorting Arm Paper.pdf" target="_blank" rel="noopener">View Paper</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-media">
+            <img src="Projects/Solar panel placer/Solar Image.jpg" alt="Solar Panel Placer" class="project-img" />
+          </div>
+          <div class="project-body">
+            <h3>Solar Panel Placer</h3>
+            <p class="project-description">Developed two robots designed to autonomously place solar panels. Each robot featured a unique four-bar linkage and grabber mechanism designed in SolidWorks and fabricated with 3D printing. Performed linkage synthesis, force analysis, and cost evaluation, with control logic implemented in C++ using a dynamic state machine for adaptive operation.</p>
+            <ul class="project-skills-list">
+              <li>SolidWorks</li>
+              <li>3D Printing</li>
+              <li>C++</li>
+              <li>Robotics</li>
+            </ul>
+          </div>
+          <div class="project-footer">
+            <a class="btn-sm btn-ghost" href="Projects/Solar panel placer/Solar Panel Placer Presentation.pdf" target="_blank" rel="noopener">View Presentation</a>
+            <a class="btn-sm btn-ghost" href="Projects/Solar panel placer/25vid.mp4" target="_blank" rel="noopener">View Video</a>
+          </div>
+          </article>
+        <article class="project-card">
+          <div class="project-media">
+            <img src="Projects/Three robot maze navigation/Three robot image.jpg" alt="Three Robot Maze Navigation" class="project-img" />
+          </div>
+          <div class="project-body">
+            <h3>Three Robot Maze Navigation</h3>
+            <p class="project-description">Designed, built, and programmed three coordinated robots in C++ that communicated via an MQTT broker to navigate a randomized field. Integrated PID control, ICC and inverse kinematics, IMU sensors, and AprilTag vision processing for multi-robot collaboration.</p>
+            <ul class="project-skills-list">
+              <li>C++</li>
+              <li>MQTT</li>
+              <li>Robotics</li>
+              <li>Vision Processing</li>
+            </ul>
+          </div>
+          <div class="project-footer">
+            <a class="btn-sm btn-ghost" href="Projects/Three robot maze navigation/Three robot Final.pdf" target="_blank" rel="noopener">View Paper</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-media">
+            <img src="Projects/Mini pizza delivery robot/Pizza bot image.jpg" alt="Mini Pizza Delivery Robot" class="project-img" />
+          </div>
+          <div class="project-body">
+            <h3>Mini Pizza Delivery Robot</h3>
+            <p class="project-description">Built a compact autonomous robot using VEX components to simulate a pizza delivery task. Designed and assembled the mechanical system, integrated sensors for navigation, and implemented a C++ control program. The robot demonstrated adaptability to changing conditions in the delivery environment.</p>
+            <ul class="project-skills-list">
+              <li>VEX Robotics</li>
+              <li>Rapid Prototyping</li>
+              <li>Sensor Integration</li>
+              <li>Autonomous Navigation</li>
+            </ul>
+          </div>
+          <div class="project-footer">
+            <a class="btn-sm btn-ghost" href="Projects/Mini pizza delivery robot/Intro to Robotics Final Paper.pdf" target="_blank" rel="noopener">View Paper</a>
+          </div>
+        </article>
+    </div>
   </div>
-
-  <div class="project">
-    <h3>Robotic Sensors (2022)</h3>
-    <p>Designed, built, and programmed three coordinated robots in C++ that communicated via an MQTT broker to navigate a randomized field. Integrated PID control, ICC and inverse kinematics, IMU sensors, and AprilTag vision processing for multi-robot collaboration.</p>
-    <p class="skills">Skills: PID control, multi-robot coordination, MQTT communication, sensor fusion</p>
-  </div>
-
-  <div class="project">
-    <h3>Solar Panel Placer (2022)</h3>
-    <p>Developed two robots designed to autonomously place solar panels. Each robot featured a unique four-bar linkage and grabber mechanism designed in SolidWorks and fabricated with 3D printing. Performed linkage synthesis, force analysis, and cost evaluation, with control logic implemented in C++ using a dynamic state machine for adaptive operation.</p>
-    <p class="skills">Skills: SolidWorks CAD, four-bar linkage design, force analysis, adaptive state machines</p>
-  </div>
-
-  <div class="project">
-    <h3>Mini Pizza Delivery Robot (2022)</h3>
-    <p>Built a compact autonomous robot using VEX components to simulate a pizza delivery task. Designed and assembled the mechanical system, integrated sensors for navigation, and implemented a C++ control program. The robot demonstrated adaptability to changing conditions in the delivery environment.</p>
-    <p class="skills">Skills: VEX robotics, rapid prototyping, sensor integration, autonomous navigation</p>
-  </div>
-
+</section>
+</main>
 </body>
 </html>
